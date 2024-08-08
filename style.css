@@ -6,3 +6,8 @@
 .bg-main {
     background-color: #00B207;
 }
+
+.bg-black-main {
+    background-color: #333333;
+    color: #999999;
+}
