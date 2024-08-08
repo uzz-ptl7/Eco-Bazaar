@@ -11,3 +11,23 @@
     background-color: #333333;
     color: #999999;
 }
+
+.big-bannar {
+    background-image: url(./Project-Files/Bannar-1.png);
+}
+
+.small-bannar-1 {
+    background-image: url(./Project-Files/Bannar-2.png);
+}
+
+.small-bannar-2 {
+    background-image: url(./Project-Files/Bannar-3.png);
+}
+
+.bg-orange {
+    background-color: #FF8A00;
+}
+
+.text-main {
+    color: #00B207;
+}
