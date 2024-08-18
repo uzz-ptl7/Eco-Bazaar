@@ -57,10 +57,58 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.discount-container {
+    background-image: url("./Project-Files/Discount-bg.jpg");
+    height: 300px;
+}
+
+.ig-1 {
+    background-image: url(./Project-Files/Insta-1.png);
+}
+
+.ig-2 {
+    background-image: url(./Project-Files/Insta-2.png);
+}
+
+.ig-3 {
+    background-image: url(./Project-Files/Insta-3.png);
+}
+
+.ig-4 {
+    background-image: url(./Project-Files/Insta-4.png);
+}
+
+.ig-5 {
+    background-image: url(./Project-Files/Insta-5.png);
+}
+
+.ig-6 {
+    background-image: url(./Project-Files/Insta-6.png);
+}
+
+.contact-main-header {
+    background-image: url(./Project-Files/Contact-bg-1.png);
+    height: 100px;
+    background-repeat: no-repeat;
+}
+
+.contact-map {
+    background-image: url(./Project-Files/Contact-Map.png);
+    height: 300px;
+}
+
 @media screen and (max-width: 768px){
     
-    .w-15{
+    .w-15 {
         width: 30%;
+    }
+
+    .contact-main-header {
+        display: none;
+    }
+
+     .contact-map {
+        display: none;
     }
      
 }
