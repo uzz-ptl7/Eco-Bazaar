@@ -97,13 +97,36 @@
     height: 300px;
 }
 
+.blog-main-header {
+    background-image: url(./Project-Files/Blog-bg-1.png);
+    height: 100px;
+    background-repeat: no-repeat;
+}
+
+.single-blog-main-header {
+    background-image: url(./Project-Files/SingleBlog-bg-1.png);
+    height: 100px;
+    background-repeat: no-repeat;
+}
+
+.button-col {
+    color: #00B207;
+}
+
+.single-blog-discount {
+    background-image: url(./Project-Files/Single-Blog-4.png);
+    height: 200px;
+}
+
 @media screen and (max-width: 768px){
     
     .w-15 {
         width: 30%;
     }
 
-    .contact-main-header {
+    .contact-main-header, 
+    .blog-main-header, 
+    .single-blog-main-header {
         display: none;
     }
 
